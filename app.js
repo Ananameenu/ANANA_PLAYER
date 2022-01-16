@@ -56,9 +56,6 @@ const formatTime = (time) => {
         return `${min} : ${sec}`;
     }
 
-
-
-
 setInterval(() => {
     seekBar.value = music.currentTime;
     currentTime.innerHTML = formatTime(music.currentTime);
